@@ -4,7 +4,7 @@ import { montserrat } from '../layout';
 
 const layout = ({children}) => {
   return (
-    <div className={`${montserrat.className}`}>
+    <div className={`$`}>
       <NavBar></NavBar>
       {children}
     </div>

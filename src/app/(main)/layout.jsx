@@ -5,7 +5,7 @@ import React from "react";
 
 const layout = ({ children }) => {
   return (
-    <div className="container mx-auto">
+    <div className="">
       <Header></Header>
       <BrakingNews></BrakingNews>
       <NavBar></NavBar>

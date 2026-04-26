@@ -13,7 +13,7 @@ export default async function Home() {
   console.log(data)
 
   return (
-    <div className="container mx-auto grid grid-cols-5 gap-3">
+    <div className="container mx-auto grid grid-cols-5 gap-3 my-8">
       <div className="">
         <CategoryPage categories={categories} activeId={"08"}></CategoryPage>
       </div>
